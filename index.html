@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <main class="container">
+    <div class="date-container">
+
+      <div class="date">
+        <label for="day" class="date-label">DAY</label>
+        <input class="input-camp" type="number" id="day" placeholder="DD">
+        <p class="alert"></p>
+      </div>
+  
+      <div class="date">
+        <label for="month" class="date-label">MONTH</label>
+        <input class="input-camp" type="number" id="month" placeholder="MM">
+        <p class="alert"></p>
+      </div>
+  
+      <div class="date">
+        <label for="year" class="date-label">YEAR</label>
+        <input class="input-camp" type="number" id="year" placeholder="YYYY">
+        <p class="alert"></p>
+      </div>
+    </div>
+    <button class="btn" id="btn">
+      <img class="arrow-img" src="assets/images/icon-arrow.svg" alt="icon-arrow">
+    </button>
+
+    <div class="result-container">
+      <div>
+        <p class="result" id="result-years">--</p>
+        <p class="result">years</p>
+      </div>
+      <div>
+        <p class="result" id="result-months">--</p>
+        <p class="result">months</p>
+      </div>
+      <div>
+        <p class="result" id="result-days">--</p>
+        <p class="result">days</p>
+      </div>
+    </div>
+
+  </main>
+  <script src="app.js"></script>
+  
+</body>
+</html>
